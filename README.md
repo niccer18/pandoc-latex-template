@@ -170,6 +170,10 @@ This template defines some new variables to control the appearance of the result
 
     LaTeX command to change the font size for code blocks. The available values are `\tiny`, `\scriptsize`, `\footnotesize`, `\small`, `\normalsize`, `\large`, `\Large`, `\LARGE`, `\huge` and `\Huge`. This option will change the font size for default code blocks using the verbatim environment and for code blocks generated with listings.
 
+  - `enable-endnote` (defaults to `False`)
+
+    If `True` the latex package will `endnote` will be included and the latex command `\endnote{}` can be used in the document.
+
 ## Required LaTeX Packages
 
 LaTeX manages addons and additional functionality in so called packages. You
